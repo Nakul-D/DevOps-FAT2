@@ -26,3 +26,16 @@ Git Repository for DevOps FAT2
 - Infrastructure is defined and managed using configuration files or scripts.
 - Ensures repeatability, versioning, and automation of environments.
 - Tools like Terraform or CloudFormation eliminate manual provisioning.
+
+# How was this assignment completed
+- Created a repository on GitHub and cloned it
+- Created a **Dockerfile** with basic linux commands.
+- Built the Dockerfile using `docker build -t nakuldighe/fat2 .`
+- Ran it with `docker run nakuldighe/fat2` to verify everything works
+- Pushed it to DockerHub using `docker push nakuldighe/fat2`
+- [DockerHub link](https://hub.docker.com/r/nakuldighe/fat2)
+- Pushed Dockerfile to GitHub using:
+    - `git add .`
+    - `git commit -m "Dockerfile with basic linux commands added"`
+    - `git push`
+- Added 5 DevOps concepts to **README.md** and pushed the changes to github
